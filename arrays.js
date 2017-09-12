@@ -9,14 +9,5 @@ function addElementToBeginningOfArray(array, element){
 }
 function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
-  return array;
+  return array
 }
-function addElementToEndOfArray(array, element){
-  var newArray = [..array, element];
-  return newArray;
-}
-/*
-function accessElementInArray(array, index){
-  return array[index];
-}
-*/
